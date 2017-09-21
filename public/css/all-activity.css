@@ -1,0 +1,301 @@
+html,
+body {
+  background: #f2f2f2;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 180px;
+  padding-bottom: 30px;
+}
+.content .class {
+  width: 100%;
+  height: 45px;
+}
+.content .class ul {
+  overflow: hidden;
+  background: white;
+}
+.content .class ul li {
+  width: 124px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  float: left;
+  cursor: pointer;
+}
+.content .class ul li.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .list {
+  width: 100%;
+  background: white;
+  margin-top: 12px;
+}
+.content .list ul li {
+  display: inline-block;
+  max-width: 243px;
+  margin-left: 42px;
+  margin-top: 35px;
+}
+.content .list ul li .img-cont {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 243px;
+  height: 155px;
+  background-size: cover !important;
+}
+.content .list ul li .img-cont img {
+  display: block;
+  width: 243px;
+  height: 155px;
+}
+.content .list ul li .img-cont:hover .sha {
+  opacity: 1;
+}
+.content .list ul li .img-cont .jb {
+  transform: rotate(45deg);
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  display: block;
+  right: -53px;
+  top: -53px;
+  line-height: 180px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 17px;
+}
+.content .list ul li .img-cont .jb.bmz {
+  background: #3cafeb;
+}
+.content .list ul li .img-cont .jb.jxz {
+  background: #f95d5e;
+}
+.content .list ul li .img-cont .jb.yjs {
+  background: #c7c7c7;
+}
+.content .list ul li .img-cont .sha {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3cafeb;
+  padding: 20px 22px;
+  transition: all .8s ease;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.content .list ul li .img-cont .sha s {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  display: block;
+}
+.content .list ul li .img-cont .sha p {
+  color: white;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.content .list ul li span {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.content .list ul li p {
+  display: inline-block;
+  max-width: 243px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.content .page {
+  padding-top: 50px;
+  background: white;
+  padding-bottom: 20px;
+}
+.content .page ul {
+  text-align: center;
+}
+.content .page ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.content .page ul li button {
+  width: 70px;
+  height: 38px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background: white;
+  margin-left: 10px;
+}
+.content .page ul li dl {
+  margin-top: 5px;
+}
+.content .page ul li dl span {
+  color: #b9b9b9;
+}
+.content .page ul li dl dd {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #dbdbdb;
+  line-height: 29px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.content .page ul li dl dd:hover {
+  background: #3cafeb;
+  color: white;
+}
+.content .page ul li dl dd.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .page ul li b {
+  font-weight: 500;
+}
+.content .page ul li input {
+  width: 47px;
+  height: 38px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .content .class {
+    width: 100%;
+    height: 45px;
+  }
+  .content .class ul {
+    overflow: hidden;
+    background: white;
+    width: 100%;
+  }
+  .content .class ul li {
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+    cursor: pointer;
+  }
+  .content .class ul li.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .list {
+    width: 100%;
+    background: white;
+    margin-top: 12px;
+    padding-bottom: 20px;
+  }
+  .content .list ul {
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .content .list ul li {
+    width: 48%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .content .list ul li .img-cont {
+    width: 100%;
+    background-size: cover !important;
+  }
+  .content .list ul li .jb {
+    width: 95px !important;
+    height: 95px !important;
+    font-size: 14px !important;
+    line-height: 165px !important;
+  }
+  .content .list ul li img {
+    width: 100%;
+  }
+  .content .list ul li .sha {
+    padding: 5px 10px !important;
+  }
+  .content .list ul li .sha s {
+    margin-top: 5px !important;
+    font-size: 12px;
+  }
+  .content .list ul li .sha p {
+    margin-top: 3px !important;
+    font-size: 12px;
+  }
+  .content .page {
+    padding-top: 50px;
+    background: white;
+    display: none;
+  }
+  .content .page ul {
+    text-align: center;
+  }
+  .content .page ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .content .page ul li button {
+    width: 70px;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: white;
+    margin-left: 10px;
+  }
+  .content .page ul li dl {
+    margin-top: 5px;
+  }
+  .content .page ul li dl span {
+    color: #b9b9b9;
+  }
+  .content .page ul li dl dd {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background: #dbdbdb;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .content .page ul li dl dd:hover {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .page ul li dl dd.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .page ul li b {
+    font-weight: 500;
+  }
+  .content .page ul li input {
+    width: 47px;
+    height: 38px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+  }
+}

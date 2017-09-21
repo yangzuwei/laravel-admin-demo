@@ -1,0 +1,430 @@
+html,
+body {
+  background: #f2f2f2;
+}
+.content {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 180px;
+  overflow: hidden;
+}
+.content .left-cont {
+  width: 729px;
+  border: 1px solid #dbdbdb;
+  float: left;
+}
+.content .left-cont .top {
+  width: 100%;
+  height: 204px;
+  background: url("../img/top-bg.jpg");
+}
+.content .left-cont .top .top-c {
+  width: 90%;
+  margin: 0 auto;
+  height: 204px;
+  overflow: hidden;
+}
+.content .left-cont .top .top-c .head {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 45px;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+}
+.content .left-cont .top .top-c .head img {
+  width: 105px;
+  height: 105px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.content .left-cont .top .top-c .name {
+  float: left;
+  margin-top: 70px;
+  margin-left: 22px;
+}
+.content .left-cont .top .top-c .name h5 {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content .left-cont .top .top-c .name h5 img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.content .left-cont .top .top-c .name p {
+  margin-top: 16px;
+}
+.content .left-cont .top .top-c .name p span {
+  color: #f2f2f2;
+  font-size: 16px;
+}
+.content .left-cont .top .top-c .code {
+  width: 122px;
+  height: 122px;
+  background: rgba(255, 255, 255, 0.17);
+  text-align: center;
+  float: right;
+  margin-top: 40px;
+}
+.content .left-cont .top .top-c .code img {
+  width: 109px;
+  height: 109px;
+  margin-top: 6.5px;
+}
+.content .left-cont .dt-list {
+  width: 100%;
+  padding: 0 8%;
+  margin: 0 auto;
+  background: #fefefe;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+.content .left-cont .dt-list ul {
+  overflow: hidden;
+}
+.content .left-cont .dt-list ul li {
+  margin-top: 25px;
+}
+.content .left-cont .dt-list ul li p {
+  font-size: 16px;
+}
+.content .left-cont .dt-list ul li dl {
+  width: 100%;
+  margin-top: 10px;
+}
+.content .left-cont .dt-list ul li dl dd {
+  display: inline-block;
+  margin: 2px;
+  width: 115px;
+  height: 112px;
+  background-size: cover !important;
+  overflow: hidden;
+}
+.content .left-cont .dt-list ul li dl dd a {
+  display: block;
+  width: 115px;
+  height: 112px;
+}
+.content .left-cont .dt-list ul li .big-img {
+  margin-top: 10px;
+}
+.content .left-cont .dt-list ul li .big-img dl dd {
+  background-size: cover;
+  width: 607px;
+  height: 281px;
+  overflow: hidden;
+}
+.content .left-cont .dt-list ul li .big-img dl dd a {
+  display: block;
+  width: 607px;
+  height: 281px;
+}
+.content .left-cont .dt-list ul li .big-img img {
+  width: 607px;
+  height: 281px;
+}
+.content .left-cont .dt-list ul li .time {
+  width: 100%;
+  color: #d3d3d3;
+  line-height: 30px;
+  border-bottom: 1px solid #d3d3d3;
+}
+.content .right-cont {
+  width: 445px;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 15px;
+  border: 1px solid #dbdbdb;
+  background: #fefefe;
+  overflow: hidden;
+  margin-top: 5px;
+  float: right;
+}
+.content .right-cont .name {
+  width: 96%;
+  margin: 0 auto;
+  height: 40px;
+  border-bottom: 1px solid #dbdbdb;
+  line-height: 40px;
+}
+.content .right-cont .name span {
+  color: #3cafeb;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.content .right-cont .name a {
+  float: right;
+  color: #707070;
+  font-size: 20px;
+}
+.content .right-cont ul {
+  width: 94%;
+  margin: 0 auto;
+}
+.content .right-cont ul li {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.content .right-cont ul li .head {
+  width: 56px;
+  height: 56px;
+  float: left;
+  position: relative;
+  border-radius: 50%;
+}
+.content .right-cont ul li .head .nr-head {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.content .right-cont ul li .head .nr-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.content .right-cont ul li .name-pep {
+  float: left;
+  line-height: 21px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.content .right-cont ul li .name-pep img {
+  margin-top: 1px;
+  float: left;
+  margin-right: 5px;
+}
+.content .right-cont ul li span {
+  float: right;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #d2d2d2;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 75px;
+    overflow: hidden;
+  }
+
+  .content .left-cont {
+    width: 96%;
+    border: 1px solid #dbdbdb;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .content .left-cont .top {
+    width: 100%;
+    height: 204px;
+    background: url("../img/top-bg.jpg");
+    background-size: 100% 100%;
+  }
+
+  .content .left-cont .top .top-c {
+    width: 94%;
+    margin: 0 auto;
+    height: 204px;
+    overflow: hidden;
+  }
+
+  .content .left-cont .top .top-c .head {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    float: none;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .content .left-cont .top .top-c .head img {
+    width: 85px;
+    height: 85px;
+    margin-top: 5px;
+    border-radius: 50%;
+  }
+
+  .content .left-cont .top .top-c .name {
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .content .left-cont .top .top-c .name h5 {
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .content .left-cont .top .top-c .name h5 img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+
+  .content .left-cont .top .top-c .name p {
+    margin-top: 16px;
+  }
+
+  .content .left-cont .top .top-c .name p span {
+    color: #f2f2f2;
+    font-size: 12px;
+  }
+
+  .content .left-cont .top .top-c .code {
+    width: 75px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.17);
+    text-align: center;
+    float: right;
+    margin-top: 0;
+  }
+
+  .content .left-cont .top .top-c .code img {
+    width: 65px;
+    height: 65px;
+    margin-top: 5px;
+  }
+
+  .content .left-cont .dt-list {
+    width: 100%;
+    padding: 0 3%;
+    margin: 0 auto;
+    background: #fefefe;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+  }
+
+  .content .left-cont .dt-list ul {
+    overflow: hidden;
+  }
+
+  .content .left-cont .dt-list ul li {
+    margin-top: 15px;
+  }
+
+  .content .left-cont .dt-list ul li p {
+    font-size: 14px;
+  }
+
+  .content .left-cont .dt-list ul li dl {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .content .left-cont .dt-list ul li dl dd {
+    display: inline-block;
+    margin: 0;
+    width: 32%;
+  }
+
+  .content .left-cont .dt-list ul li dl dd img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content .left-cont .dt-list ul li .big-img {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .content .left-cont .dt-list ul li .big-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content .right-cont {
+    width: 96%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 15px;
+    border: 1px solid #dbdbdb;
+    background: #fefefe;
+    overflow: hidden;
+    margin-top: 5px;
+    float: none;
+  }
+
+  .content .right-cont .name {
+    width: 96%;
+    margin: 0 auto;
+    height: 40px;
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 40px;
+  }
+
+  .content .right-cont .name span {
+    color: #3cafeb;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .content .right-cont .name a {
+    float: right;
+    color: #707070;
+    font-size: 20px;
+  }
+
+  .content .right-cont ul {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .content .right-cont ul li {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+  }
+
+  .content .right-cont ul li .head {
+    width: 56px;
+    height: 56px;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .content .right-cont ul li .head .nr-head {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .content .right-cont ul li .head .nr-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .content .right-cont ul li .name-pep {
+    float: left;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  .content .right-cont ul li .name-pep img {
+    margin-top: 1px;
+    float: left;
+    margin-right: 5px;
+  }
+
+  .content .right-cont ul li span {
+    float: right;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #d2d2d2;
+  }
+}

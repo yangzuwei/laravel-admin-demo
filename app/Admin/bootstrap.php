@@ -18,4 +18,14 @@
  *
  */
 
+use App\Admin\Extensions\WangEditor;
+use App\Admin\Extensions\BaiduMap;
+
 Encore\Admin\Form::forget(['map', 'editor']);
+//app('translator')->addNamespace('admin', resource_path('lang/admin'));
+
+
+Encore\Admin\Form::extend('weditor', WangEditor::class);
+Encore\Admin\Form::extend('baidumap', BaiduMap::class);
+
+Admin::js('/vendor/chartjs/dist/Chart.min.js');

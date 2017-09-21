@@ -5,17 +5,17 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name'      => 'Laravel-admin',
+    'name'      => '凯创后台管理工具',
 
     /*
      * Logo in admin panel header.
      */
-    'logo'      => '<b>Laravel</b> admin',
+    'logo'      => '<b>凯创</b> 管理后台',
 
     /*
      * Mini-logo in admin panel header.
      */
-    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>凯</b>',
 
     /*
      * Route configration.
@@ -76,7 +76,7 @@ return [
         ],
 
         'host'=> env('APP_URL').'/upload',
-        'url' => 'http://hi.com/upload',
+        'url' => 'http://hi.com/upload/',
     ],
 
     /*
@@ -132,7 +132,7 @@ return [
     /*
      * @see https://adminlte.io/docs/2.4/layout
      */
-    'skin'    => 'skin-blue-light',
+    'skin'    => 'skin-blue',
 
     /*
     |---------------------------------------------------------|
@@ -143,7 +143,7 @@ return [
     |               | sidebar-mini                            |
     |---------------------------------------------------------|
      */
-    'layout'  => ['sidebar-mini', 'sidebar-collapse'],
+    'layout'  => ['sidebar-mini'],
 
     /*
      * Version displayed in footer.

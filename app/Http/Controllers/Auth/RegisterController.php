@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use App\Models\Appuser;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Validation\ValidationException;
 
 class RegisterController extends Controller
 {
@@ -27,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -48,9 +52,9 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
+            'user_name' => 'required|string|max:255|unique:mysql2.app_users',
             'password' => 'required|string|min:6|confirmed',
+            //'captcha' => 'required|captcha',
         ]);
     }
 
@@ -58,14 +62,38 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return User
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+        return Appuser::create([
+            'user_name' => $data['user_name'],
+            'nick'=> $data['user_name'],
+            'email'=>$data['email'],
+            'password' => md5($data['password'].'kaichuang'),
         ]);
     }
+
+    public function register(Request $request)
+    {
+        try{
+            $this->validator($request->all())->validate();
+        }catch (ValidationException $e){
+            //echo $e->getMessage();
+            return redirect()->back()->with('log_message','注册失败');
+        }
+
+        event(new Registered($user = $this->create($request->all())));
+
+        $this->guard()->login($user);
+
+        return $this->registered($request, $user)
+            ? redirect()->back()->with('log_message','注册失败'):redirect()->back();
+    }
+
+//    protected function registered(Request $request, $user)
+//    {
+//        return Appuser::where('user_name',$user->user_name)->firstOrFail();
+//    }
+
 }

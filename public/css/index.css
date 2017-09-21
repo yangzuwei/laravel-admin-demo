@@ -1,0 +1,810 @@
+.header {
+  border-bottom: none;
+}
+.Tribal-people {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+.Tribal-people h3 {
+  width: 100%;
+  height: 43px;
+  border-bottom: 1px solid #cacaca;
+}
+.Tribal-people h3 span {
+  display: block;
+  width: 110px;
+  height: 42px;
+  border-bottom: 2px solid  #3cafeb;
+  font-size: 26px;
+  font-weight: 500;
+  float: left;
+}
+.Tribal-people h3 a {
+  float: right;
+  font-size: 26px;
+  font-weight: 500;
+  color: #3cafeb;
+}
+.Tribal-people .show {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.Tribal-people .show dl {
+  width: 100%;
+  height: 175px;
+}
+.Tribal-people .show dl dd {
+  float: left;
+  width: 172px;
+  height: 172px;
+  margin-top: 10px;
+}
+.Tribal-people .show dl dd:first-child {
+  margin-left: 0;
+}
+.Tribal-people .show dl dd div {
+  width: 115px;
+  height: 115px;
+  background: #ececec;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  z-index: 99;
+}
+.Tribal-people .show dl dd div:hover i {
+  top: 5px;
+}
+.Tribal-people .show dl dd div img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.Tribal-people .show dl dd div i {
+  display: block;
+  width: 105px;
+  height: 105px;
+  transition: all .2s ease;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 115px;
+  left: 5px;
+  color: #d3d3d3;
+  text-align: center;
+  font-style: normal;
+  padding: 25px 0;
+  box-sizing: border-box;
+  line-height: 24px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.Tribal-people .show dl dd span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.Tribal-people .show dl dd b {
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Tribal-people .show .prev {
+  width: 37px;
+  height: 100px;
+  background: url("../img/tribal-page.png") no-repeat center center;
+  position: absolute;
+  left: -11px;
+  top: 65px;
+  cursor: pointer;
+}
+.Tribal-people .show .next {
+  width: 37px;
+  height: 100px;
+  background: url("../img/tribal-page.png") no-repeat center center;
+  transform: rotate(180deg);
+  position: absolute;
+  right: -11px;
+  top: 65px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .Tribal-people {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .Tribal-people h3 {
+    width: 96%;
+    height: 35px;
+    margin: 0 auto;
+  }
+  .Tribal-people h3 span {
+    font-size: 18px;
+    width: 75px;
+    height: 34px;
+    text-align: center;
+  }
+  .Tribal-people h3 a {
+    font-size: 20px;
+  }
+  .Tribal-people .show {
+    width: 100% !important;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+    overflow-x: scroll !important;
+  }
+  .Tribal-people .show .prev {
+    display: block;
+    width: 10px;
+    height: 20px;
+  }
+  .Tribal-people .show dl {
+    width: 100%;
+    height: 175px;
+  }
+  .Tribal-people .show dl dd {
+    float: left;
+    width: 92px;
+    height: 145px;
+    margin-top: 10px;
+  }
+  .Tribal-people .show dl dd:first-child {
+    margin-left: 0;
+  }
+  .Tribal-people .show dl dd div {
+    width: 74px;
+    height: 74px;
+    background: #ececec;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  .Tribal-people .show dl dd div:hover i {
+    top: 5px;
+  }
+  .Tribal-people .show dl dd div img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin-top: 4px;
+  }
+  .Tribal-people .show dl dd div i {
+    display: block;
+    width: 68px;
+    height: 68px;
+    transition: all .2s ease;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 115px;
+    left: 4px;
+    color: #d3d3d3;
+    text-align: center;
+    font-style: normal;
+    padding: 18px 0;
+    box-sizing: border-box;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .Tribal-people .show dl dd span {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .Tribal-people .show dl dd b {
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Tribal-people .show .prev {
+    width: 8px;
+    height: 15px;
+    background: url("../img/tribal-page.png") no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 90px;
+  }
+  .Tribal-people .show .next {
+    width: 8px;
+    height: 15px;
+    background: url("../img/tribal-page.png") no-repeat center center;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    top: 90px;
+  }
+}
+.recommende {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.recommende h3 {
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #cacaca;
+}
+.recommende h3 span {
+  display: block;
+  width: 110px;
+  height: 43px;
+  border-bottom: 2px solid  #3cafeb;
+  font-size: 26px;
+  font-weight: 500;
+  float: left;
+}
+.recommende h3 a {
+  float: right;
+  font-size: 26px;
+  font-weight: 500;
+  color: #3cafeb;
+}
+.recommende .news {
+  width: 328px;
+  height: 905px;
+  border: 1px solid #dbdbdb;
+  margin-top: 22px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  float: left;
+}
+.recommende .news h4 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.recommende .news h4 strong {
+  font-weight: 500;
+  color: #3cafeb;
+  font-size: 20px;
+}
+.recommende .news h4 img {
+  position: relative;
+  top: -2px;
+}
+.recommende .news h4 .xl {
+  width: 97px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  left: 100px;
+  display: none;
+  top: 42px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #e5e5e5;
+  z-index: 9;
+}
+.recommende .news h4 .xl span {
+  display: block;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 500;
+}
+.recommende .news h4 .xl span:hover {
+  color: #3cafeb;
+}
+.recommende .news ul li {
+  width: 100%;
+  height: 120px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+}
+.recommende .news ul li:hover .list-txt p {
+  color: #3cafeb;
+}
+.recommende .news ul li:hover .list-txt span {
+  color: #3cafeb;
+}
+.recommende .news ul li .news-list-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  box-sizing: border-box;
+}
+.recommende .news ul li .news-list-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.recommende .news ul li .list-txt {
+  width: 80%;
+  height: 80px;
+  padding-left: 90px;
+  box-sizing: border-box;
+}
+.recommende .news ul li .list-txt p {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 18px;
+  font-size: 16px;
+}
+.recommende .news ul li .list-txt span {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.recommende .travel {
+  width: 855px;
+  height: auto;
+  float: right;
+  margin-right: 5px;
+}
+.recommende .travel ul li {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  overflow: hidden;
+  margin-top: 22px;
+  z-index: 100;
+}
+.recommende .travel ul li .bigimg {
+    height: 342px;
+    width: 857px;
+
+  overflow:hidden;
+  margin-top: 8px;
+  margin-left: 8px;
+  display:inline-block;
+}
+.recommende .travel ul li .bigimg img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.recommende .travel ul li .info {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+.recommende .travel ul li .info .top {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -42px;
+  position: relative;
+  z-index: 99;
+}
+.recommende .travel ul li .info .top .head-img {
+  width: 87px;
+  height: 87px;
+  float: left;
+  margin-left: 35px;
+}
+.recommende .travel ul li .info .top .head-img img {
+  width: 87px;
+  height: 87px;
+  border-radius: 50%;
+}
+.recommende .travel ul li .info .top .head-txt {
+  width: auto;
+  float: left;
+  height: 87px;
+  margin-left: 10px;
+}
+.recommende .travel ul li .info .top .head-txt h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.recommende .travel ul li .info .top .head-txt span {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.recommende .travel ul li .info p {
+  display: block;
+  width: 790px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 5px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.recommende .travel ul li .info p i {
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: #707070;
+  border-radius: 50%;
+  float: left;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+@media (max-width: 1200px) {
+  .recommende {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .recommende h3 {
+    width: 96%;
+    height: 35px;
+    margin: 0 auto;
+  }
+  .recommende h3 span {
+    font-size: 18px;
+    width: 75px;
+    height: 34px;
+    text-align: center;
+  }
+  .recommende h3 a {
+    font-size: 20px;
+  }
+  .recommende .news {
+    width: 96%;
+    margin: 0 auto;
+    float: none;
+    margin-top: 10px;
+  }
+  .recommende .news h4 .xl {
+    width: 100%;
+    left: 0;
+  }
+  .recommende .news h4 .xl span {
+    height: 35px;
+    line-height: 35px;
+  }
+  .recommende .travel {
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+  }
+  .recommende .travel ul li .bigimg {
+    width: 100%;
+    text-align: center;
+    background: center center no-repeat;
+    overflow: hidden;
+  }
+  .recommende .travel ul li .bigimg img {
+    display: inline-block;
+    vertical-align: middle;
+    /*width: 100%;*/
+    /*height: auto;*/
+  }
+  .recommende .travel ul li .info .top .head-img {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+  }
+  .recommende .travel ul li .info .top .head-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .recommende .travel ul li .info .top .head-txt h4 {
+    font-size: 17px;
+  }
+  .recommende .travel ul li .info .top .head-txt span {
+    margin-top: 20%;
+    font-size: 17px;
+  }
+  .recommende .travel ul li .info p {
+    width: 90%;
+    margin-top: 5px;
+  }
+}
+.banner {
+  width: 100%;
+  height: 699px;
+}
+.banner .slides li {
+  position: relative;
+  height: 699px;
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .banner .slides li {
+     background-position-x: center;
+  }
+}
+
+.app {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.app h3 {
+  width: 100%;
+  overflow: hidden;
+  height: 44px;
+  border-bottom: 1px solid #cacaca;
+}
+.app h3 span {
+  display: block;
+  width: 110px;
+  height: 43px;
+  border-bottom: 2px solid  #3cafeb;
+  font-size: 26px;
+  font-weight: 500;
+  float: left;
+}
+.app h3 a {
+  float: right;
+  font-size: 26px;
+  font-weight: 500;
+  color: #3cafeb;
+}
+.app ul li {
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 35px;
+}
+.app ul li .img-cont {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 243px;
+  height: 155px;
+  background-size: cover !important;
+}
+.app ul li .img-cont:hover .sha {
+  opacity: 1;
+}
+.app ul li .img-cont .jb {
+  transform: rotate(45deg);
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  display: block;
+  right: -53px;
+  top: -53px;
+  line-height: 180px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 17px;
+}
+.app ul li .img-cont .jb.bmz {
+  background: #3cafeb;
+}
+.app ul li .img-cont .jb.jxz {
+  background: #f95d5e;
+}
+.app ul li .img-cont .jb.yjs {
+  background: #c7c7c7;
+}
+.app ul li .img-cont .sha {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3cafeb;
+  padding: 20px 22px;
+  transition: all .8s ease;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.app ul li .img-cont .sha s {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  display: block;
+}
+.app ul li .img-cont .sha p {
+  color: white;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.app ul li span {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.app ul li b {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (max-width: 1200px) {
+  .app {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .app h3 {
+    width: 96%;
+    height: 35px;
+    margin: 0 auto;
+  }
+  .app h3 span {
+    font-size: 18px;
+    width: 75px;
+    height: 33px;
+    text-align: center;
+  }
+  .app h3 a {
+    font-size: 20px;
+  }
+  .app ul {
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .app ul li {
+    width: 48%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .app ul li .img-cont {
+    width: 100%;
+  }
+  .app ul li .jb {
+    width: 95px !important;
+    height: 95px !important;
+    font-size: 14px !important;
+    line-height: 165px !important;
+  }
+  .app ul li img {
+    width: 100%;
+  }
+  .app ul li .sha {
+    padding: 5px 10px !important;
+  }
+  .app ul li .sha s {
+    margin-top: 5px !important;
+    font-size: 12px;
+  }
+  .app ul li .sha p {
+    margin-top: 3px !important;
+    font-size: 12px;
+  }
+}
+.outdoor-video {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.outdoor-video h3 {
+  width: 100%;
+  overflow: hidden;
+  height: 44px;
+  border-bottom: 1px solid #cacaca;
+}
+.outdoor-video h3 span {
+  display: block;
+  width: 110px;
+  height: 43px;
+  border-bottom: 2px solid  #3cafeb;
+  font-size: 26px;
+  font-weight: 500;
+  float: left;
+}
+.outdoor-video h3 a {
+  float: right;
+  font-size: 26px;
+  font-weight: 500;
+  color: #3cafeb;
+}
+.outdoor-video ul li {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 30px;
+}
+.outdoor-video ul li:hover span {
+  color: #3cafeb;
+}
+.outdoor-video ul li .video-cont {
+  width: 243px;
+  height: 155px;
+  /*border-style: dotted;*/
+  /*border-width: thin;*/
+  /*background-size: cover !important;*/
+}
+/*.outdoor-video ul li .video-cont img {*/
+  /*width: 243px;*/
+  /*height: 155px;*/
+/*}*/
+
+/*.outdoor-video ul li .video-cont video {*/
+  /*border-style: solid;*/
+  /*width: 243px;*/
+  /*height: 155px;*/
+/*}*/
+
+.outdoor-video ul li span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 8px;
+}
+@media (max-width: 1200px) {
+  .outdoor-video {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .outdoor-video h3 {
+    width: 96%;
+    height: 35px;
+    margin: 0 auto;
+  }
+  .outdoor-video h3 span {
+    font-size: 18px;
+    width: 75px;
+    height: 33px;
+    text-align: center;
+  }
+  .outdoor-video h3 a {
+    font-size: 20px;
+  }
+  .outdoor-video ul {
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .outdoor-video ul li {
+    width: 48%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .outdoor-video ul li video {
+    width: 100%;
+  }
+  .outdoor-video ul li .video-cont {
+    width: 100%;
+  }
+  .outdoor-video ul li span {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+.close-shadow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  display: none;
+  top: 0;
+}

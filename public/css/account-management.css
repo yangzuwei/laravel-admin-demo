@@ -1,0 +1,644 @@
+html,
+body {
+  background: #f2f2f2;
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 190px;
+}
+.content .plan1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  background: white;
+  border: 1px solid #dbdbdb;
+}
+.content .plan1 .headimg {
+  width: 948px;
+  height: 140px;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.content .plan1 .headimg .img-cont {
+  width: 85px ;
+  height: 85px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+.content .plan1 .headimg .img-cont img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.content .plan1 .headimg input {
+  display: none;
+}
+.content .plan1 .info-list {
+  width: 910px;
+  margin: 0 auto;
+}
+.content .plan1 .info-list li {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.content .plan1 .info-list li span {
+  font-size: 20px;
+  line-height: 70px;
+  float: left;
+}
+.content .plan1 .info-list li i {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 70px;
+}
+.content .plan1 .info-list li i.psw {
+  font-size: 40px;
+  float: left;
+}
+.content .plan1 .info-list li input {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 70px;
+  border: none;
+  outline: none;
+}
+.content .plan1 .info-list li .rdiv {
+  width: 80px;
+  height: 70px;
+  float: right;
+  cursor: pointer;
+}
+.content .plan1 .info-list li .rdiv button {
+  width: 63px;
+  height: 30px;
+  background: #d2d2d2;
+  color: white;
+  margin-top: 20px;
+}
+.content .plan1 .info-list li .rdiv button.bc {
+  background: #3cafeb;
+}
+.content .plan1 .info-list li .rdiv b {
+  font-weight: 500;
+  line-height: 70px;
+}
+.content .plan1 .info-list li .rdiv img {
+  transform: rotate(180deg);
+  width: 7px;
+  float: right;
+  margin-top: 28px;
+}
+.content .plan1 .psw-cont {
+  width: 850px;
+  height: 300px;
+  background: #f7f7f7;
+  margin: 0 auto;
+  margin-top: 10px;
+  overflow: hidden;
+  display: none;
+}
+.content .plan1 .psw-cont ul {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.content .plan1 .psw-cont ul li {
+  width: 100%;
+  margin-top: 20px;
+}
+.content .plan1 .psw-cont ul li span {
+  font-size: 20px;
+  color: #707070;
+  display: block;
+  width: 120px;
+  float: left;
+  line-height: 44px;
+  text-align: right;
+}
+.content .plan1 .psw-cont ul li input {
+  width: 367px;
+  height: 44px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  margin-left: 12px;
+  font-size: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+.content .plan1 .psw-cont ul li input::-webkit-input-placeholder {
+  color: #d2d2d2;
+}
+.content .plan1 .psw-cont ul li button {
+  width: 104px;
+  height: 44px;
+  background: #3cafeb;
+  color: white;
+  font-size: 20px;
+  float: right;
+}
+.content .plan2 {
+  height: 625px;
+  width: 100%;
+  background: white;
+  border: 1px solid #dbdbdb;
+  margin-top: 15px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+}
+.content .plan2 .left-cont {
+  width: 285px;
+  float: left;
+}
+.content .plan2 .left-cont .cont {
+  width: 283px;
+  height: 413px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.content .plan2 .left-cont .cont .jl-phone {
+  width: 100%;
+  height: 315px;
+}
+.content .plan2 .left-cont .cont .jl-phone img {
+  width: 100%;
+}
+.content .plan2 .left-cont .cont .head-img {
+  width: 250px;
+  margin: 0 auto;
+  height: 98px;
+}
+.content .plan2 .left-cont .cont .head-img .img-cont {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: -25px;
+}
+.content .plan2 .left-cont .cont .head-img .img-cont img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+.content .plan2 .left-cont .cont .head-img b {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+}
+.content .plan2 .left-cont .cont .head-img p {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.content .plan2 .left-cont .cont .head-img p img {
+  float: right;
+}
+.content .plan2 .left-cont .upbtn {
+  width: 243px;
+  height: 46px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+.content .plan2 .left-cont p {
+  width: 280px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.content .plan2 .right-cont {
+  width: 465px;
+  float: left;
+  height: 335px;
+  margin-left: 80px;
+}
+.content .plan2 .right-cont .head {
+  width: 115px;
+  height: 115px;
+  background: #ececec;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
+  float: left;
+}
+.content .plan2 .right-cont .head:hover i {
+  top: 5px;
+}
+.content .plan2 .right-cont .head img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.content .plan2 .right-cont .head i {
+  display: block;
+  width: 105px;
+  height: 105px;
+  transition: all .2s ease;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 115px;
+  left: 5px;
+  color: #d3d3d3;
+  text-align: center;
+  font-style: normal;
+  padding: 25px 0;
+  box-sizing: border-box;
+  line-height: 24px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.content .plan2 .right-cont .shur {
+  width: 310px;
+  height: 95px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.content .plan2 .right-cont .shur input {
+  width: 100%;
+  height: 35px;
+  background: #f2f2f2;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.content .plan2 .right-cont .shur input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+.content .plan2 .right-cont .shur .bc {
+  width: 110px;
+  height: 45px;
+  display: block;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  background: #3cafeb;
+}
+.content .plan2 .right-cont .shur2 {
+  width: 100%;
+  margin-top: 55px;
+  float: left;
+}
+.content .plan2 .right-cont .shur2 p {
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.content .plan2 .right-cont .shur2 input {
+  width: 100%;
+  height: 35px;
+  background: #f2f2f2;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.content .plan2 .right-cont .shur2 input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+.content .plan2 .right-cont .shur2 .bc {
+  width: 110px;
+  height: 45px;
+  display: block;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  background: #3cafeb;
+}
+@media (max-width: 1200px) {
+  .content {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .content {
+    width: 100%;
+    height: auto;
+  }
+  .content .plan1 {
+    width: 94%;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    padding-bottom: 5%;
+  }
+  .content .plan1 .headimg {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .content .plan1 .headimg .img-cont {
+    width: 85px ;
+    height: 85px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 27px;
+  }
+  .content .plan1 .info-list {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content .plan1 .info-list li {
+    width: 92%;
+    height: 70px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .content .plan1 .info-list li span {
+    font-size: 15px;
+    line-height: 70px;
+    float: left;
+  }
+  .content .plan1 .info-list li i {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 70px;
+  }
+  .content .plan1 .info-list li i.psw {
+    font-size: 40px;
+    float: left;
+  }
+  .content .plan1 .info-list li .rdiv {
+    width: 70px;
+    height: 70px;
+    float: right;
+    cursor: pointer;
+  }
+  .content .plan1 .info-list li .rdiv button {
+    width: 56px;
+    height: 30px;
+    background: #d2d2d2;
+    color: white;
+    margin-top: 20px;
+  }
+  .content .plan1 .info-list li .rdiv b {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 70px;
+  }
+  .content .plan1 .info-list li .rdiv img {
+    transform: rotate(180deg);
+    width: 7px;
+    float: right;
+    margin-top: 28px;
+  }
+  .content .plan1 .psw-cont {
+    width: 90%;
+    height: auto;
+    background: #f7f7f7;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .content .plan1 .psw-cont ul {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+  }
+  .content .plan1 .psw-cont ul li {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .content .plan1 .psw-cont ul li span {
+    font-size: 14px;
+    color: #707070;
+    display: block;
+    width: 85px;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+  }
+  .content .plan1 .psw-cont ul li input {
+    width: 63%;
+    height: 40px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    margin-left: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .content .plan1 .psw-cont ul li input::-webkit-input-placeholder {
+    color: #d2d2d2;
+  }
+  .content .plan1 .psw-cont ul li button {
+    width: 90px;
+    height: 34px;
+    background: #3cafeb;
+    color: white;
+    font-size: 16px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .content .plan2 {
+    height: auto;
+    width: 94%;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 5% 3%;
+    box-sizing: border-box;
+  }
+  .content .plan2 .left-cont {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+  .content .plan2 .left-cont .cont {
+    width: 100%;
+    height: auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .content .plan2 .left-cont .cont .jl-phone {
+    width: 100%;
+    height: auto;
+  }
+  .content .plan2 .left-cont .cont .jl-phone img {
+    width: 100%;
+  }
+  .content .plan2 .left-cont .cont .head-img {
+    width: 250px;
+    margin: 0 auto;
+    height: 98px;
+  }
+  .content .plan2 .left-cont .cont .head-img .img-cont {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -25px;
+    margin-left: 15px;
+  }
+  .content .plan2 .left-cont .cont .head-img b {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+  }
+  .content .plan2 .left-cont .cont .head-img p {
+    width: 90%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .content .plan2 .left-cont .cont .head-img p img {
+    float: right;
+  }
+  .content .plan2 .left-cont .upbtn {
+    width: 243px;
+    height: 46px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+  }
+  .content .plan2 .left-cont p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .content .plan2 .right-cont {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-left: 0;
+  }
+  .content .plan2 .right-cont .head {
+    width: 115px;
+    height: 115px;
+    background: #ececec;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 99;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .content .plan2 .right-cont .head:hover i {
+    top: 5px;
+  }
+  .content .plan2 .right-cont .head img {
+    width: 105px;
+    height: 105px;
+    margin-top: 5px;
+  }
+  .content .plan2 .right-cont .head i {
+    display: block;
+    width: 105px;
+    height: 105px;
+    transition: all .2s ease;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 115px;
+    left: 5px;
+    color: #d3d3d3;
+    text-align: center;
+    font-style: normal;
+    padding: 25px 0;
+    box-sizing: border-box;
+    line-height: 24px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .content .plan2 .right-cont .shur {
+    width: 100%;
+    height: 95px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .content .plan2 .right-cont .shur input {
+    width: 100%;
+    height: 35px;
+    background: #f2f2f2;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  .content .plan2 .right-cont .shur input::-webkit-input-placeholder {
+    color: #cacaca;
+  }
+  .content .plan2 .right-cont .shur .bc {
+    width: 90px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    background: #3cafeb;
+  }
+  .content .plan2 .right-cont .shur2 {
+    width: 100%;
+    margin-top: 55px;
+    float: left;
+  }
+  .content .plan2 .right-cont .shur2 p {
+    font-size: 14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .content .plan2 .right-cont .shur2 input {
+    width: 100%;
+    height: 35px;
+    background: #f2f2f2;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  .content .plan2 .right-cont .shur2 input::-webkit-input-placeholder {
+    color: #cacaca;
+  }
+  .content .plan2 .right-cont .shur2 .bc {
+    width: 90px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    background: #3cafeb;
+  }
+}

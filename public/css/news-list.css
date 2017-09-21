@@ -1,0 +1,295 @@
+html,
+body {
+  background: #f2f2f2;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 180px;
+  overflow: hidden;
+}
+.content .left-cont {
+  width: 152px;
+  float: left;
+}
+.content .left-cont a {
+  display: block;
+  width: 100%;
+  height: 41px;
+  text-align: center;
+  line-height: 41px;
+  background: white;
+  border: 1px solid #eeeeee;
+  position: relative;
+  box-sizing: border-box;
+}
+.content .left-cont a.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .left-cont a img {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  transform: rotate(180deg);
+}
+.content .right-cont {
+  width: 1044px;
+  float: right;
+  height: auto;
+  background: white;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  padding: 0 25px;
+}
+.content .right-cont .news-list li {
+  padding: 25px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+}
+.content .right-cont .news-list li .left-img {
+  width: 242px;
+  height: 153px;
+  text-align: center;
+  margin-left: 5px;
+  float: left;
+  background-size: cover !important;
+}
+.content .right-cont .news-list li .left-img img {
+  height: 100%;
+}
+.content .right-cont .news-list li .right-txt {
+  width: 728px;
+  height: 153px;
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.content .right-cont .news-list li .right-txt h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  cursor: pointer;
+}
+.content .right-cont .news-list li .right-txt span {
+  color: #cacaca;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+}
+.content .right-cont .news-list li .right-txt p {
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 25px;
+  height: 50px;
+  overflow: hidden;
+}
+.content .right-cont .news-list li .right-txt a {
+  color: #cacaca;
+  display: block;
+  margin-top: 7px;
+}
+.content .right-cont .page {
+  padding-top: 50px;
+  background: white;
+  padding-bottom: 20px;
+}
+.content .right-cont .page ul {
+  text-align: center;
+}
+.content .right-cont .page ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.content .right-cont .page ul li button {
+  width: 70px;
+  height: 38px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background: white;
+  margin-left: 10px;
+}
+.content .right-cont .page ul li dl {
+  margin-top: 5px;
+}
+.content .right-cont .page ul li dl span {
+  color: #b9b9b9;
+}
+.content .right-cont .page ul li dl dd {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #dbdbdb;
+  line-height: 29px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.content .right-cont .page ul li dl dd:hover {
+  background: #3cafeb;
+  color: white;
+}
+.content .right-cont .page ul li dl dd.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .right-cont .page ul li b {
+  font-weight: 500;
+}
+.content .right-cont .page ul li input {
+  width: 47px;
+  height: 38px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .content .left-cont {
+    width: 100%;
+    float: left;
+  }
+  .content .left-cont a {
+    display: block;
+    width: 100%;
+    height: 41px;
+    text-align: center;
+    line-height: 41px;
+    background: white;
+    border: 1px solid #eeeeee;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .content .left-cont a.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .left-cont a img {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    transform: rotate(180deg);
+  }
+  .content .right-cont {
+    width: 100%;
+    float: right;
+    height: auto;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    padding: 0 10px;
+    margin-top: 5%;
+  }
+  .content .right-cont .news-list li {
+    width: 100%;
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+  }
+  .content .right-cont .news-list li .left-img {
+    float: none;
+    width: 242px;
+    height: 153px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .content .right-cont .news-list li .left-img img {
+    height: 100%;
+  }
+  .content .right-cont .news-list li .right-txt {
+    width: 100%;
+    height: 153px;
+    float: none;
+    padding-left: 0px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  .content .right-cont .news-list li .right-txt h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #707070;
+    cursor: pointer;
+  }
+  .content .right-cont .news-list li .right-txt span {
+    color: #cacaca;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }
+  .content .right-cont .news-list li .right-txt p {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .content .right-cont .news-list li .right-txt a {
+    color: #cacaca;
+    display: block;
+    margin-top: 7px;
+  }
+  .content .right-cont .page {
+    padding-top: 50px;
+    background: white;
+    display: none;
+    padding-bottom: 20px;
+  }
+  .content .right-cont .page ul {
+    text-align: center;
+  }
+  .content .right-cont .page ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .content .right-cont .page ul li button {
+    width: 70px;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: white;
+    margin-left: 10px;
+  }
+  .content .right-cont .page ul li dl {
+    margin-top: 5px;
+  }
+  .content .right-cont .page ul li dl span {
+    color: #b9b9b9;
+  }
+  .content .right-cont .page ul li dl dd {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background: #dbdbdb;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .content .right-cont .page ul li dl dd:hover {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .right-cont .page ul li dl dd.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .right-cont .page ul li b {
+    font-weight: 500;
+  }
+  .content .right-cont .page ul li input {
+    width: 47px;
+    height: 38px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+  }
+}

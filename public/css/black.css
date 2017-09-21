@@ -1,0 +1,308 @@
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 133px;
+  overflow: hidden;
+}
+.content .top-cont {
+  width: 100%;
+  height: 452px;
+  position: relative;
+}
+.content .top-cont .big-img {
+  width: 100%;
+  height: 452px;
+}
+.content .top-cont .big-img {
+  background-size: cover;
+}
+/*.content .top-cont .big-img.bm2 {*/
+  /*background: url("../img/a.jpg") center center;*/
+  /*background-size: cover;*/
+/*}*/
+/*.content .top-cont .big-img.bm3 {*/
+  /*background: url("../img/banner.jpg") center center;*/
+  /*background-size: cover;*/
+/*}*/
+.content .top-cont .right-nav {
+  width: 170px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.51);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.content .top-cont .right-nav ul li {
+  width: 100%;
+  height: 38px;
+  text-align: right;
+  padding: 0 20px;
+  box-sizing: border-box;
+  line-height: 38px;
+  color: white;
+  cursor: pointer;
+}
+.content .top-cont .right-nav ul li:hover {
+  background: #ff7b13;
+}
+.content .top-cont .right-nav ul li.act {
+  background: #ff7b13;
+}
+.content .top-cont .right-nav ul li img {
+  width: 7px;
+  float: left;
+  margin-top: 12px;
+}
+.content .btm-cont {
+  width: 100%;
+  margin-top: 45px;
+}
+.content .btm-cont h2 {
+  width: 837px;
+  height: 30px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content .btm-cont h2 span {
+  color: #ff6700;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content .btm-cont .left-list {
+  width: 838px;
+  float: left;
+}
+.content .btm-cont .left-list ul li {
+  overflow: hidden;
+  margin-top: 16px;
+}
+.content .btm-cont .left-list ul li:hover {
+  cursor: pointer;
+}
+.content .btm-cont .left-list ul li:hover p {
+  color: #ff6528;
+}
+.content .btm-cont .left-list ul li i {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #707070;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content .btm-cont .left-list ul li p {
+  float: left;
+  color: #707070;
+  font-size: 16px;
+  width: 605px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.content .btm-cont .left-list ul li span {
+  float: right;
+  color: #d2d2d2;
+  margin-top: 5px;
+}
+.content .btm-cont .left-list dl {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.content .btm-cont .left-list dl dt {
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.content .btm-cont .left-list dl dt:hover {
+  color: #ff6528;
+}
+.content .btm-cont .left-list dl dd {
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.content .btm-cont .left-list dl dd:hover {
+  color: #ff6528;
+}
+.content .btm-cont .left-list dl dd.act {
+  color: #ff6528;
+}
+.content .btm-cont .right-img {
+  width: 312px;
+  float: right;
+}
+.content .btm-cont .right-img ul li {
+  width: 311px;
+  height: 142px;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover !important;
+}
+.content .btm-cont .right-img ul li:hover .sha {
+  opacity: 1;
+}
+.content .btm-cont .right-img ul li:first-child {
+  margin-top: 0;
+}
+.content .btm-cont .right-img ul li img {
+  width: 311px;
+  height: 142px;
+}
+.content .btm-cont .right-img ul li .sha {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+  padding: 0 10px ;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .4s ease;
+  line-height: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 100%;
+    margin-top: 65px;
+  }
+  .content .top-cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content .top-cont .right-nav {
+    width: 140px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.51);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .content .top-cont .right-nav ul li {
+    width: 100%;
+    height: 32px;
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+  }
+  .content .top-cont .right-nav ul li.act {
+    background: #ff7b13;
+  }
+  .content .top-cont .right-nav ul li img {
+    width: 7px;
+    float: left;
+    margin-top: 10px;
+  }
+  .content .top-cont .bigimg {
+    width: 100%;
+    display: block;
+  }
+  .content .btm-cont {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  .content .btm-cont h2 {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content .btm-cont h2 span {
+    color: #ff6700;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content .btm-cont .left-list {
+    width: 100%;
+    float: none;
+  }
+  .content .btm-cont .left-list ul li {
+    overflow: hidden;
+    margin-top: 12px;
+  }
+  .content .btm-cont .left-list ul li i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #707070;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .content .btm-cont .left-list ul li p {
+    float: left;
+    color: #707070;
+    font-size: 14px;
+    width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .content .btm-cont .left-list ul li span {
+    float: right;
+    color: #d2d2d2;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .content .btm-cont .left-list dl {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .content .btm-cont .left-list dl dt {
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .content .btm-cont .left-list dl dt:hover {
+    color: #ff6528;
+  }
+  .content .btm-cont .left-list dl dd {
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .content .btm-cont .left-list dl dd:hover {
+    color: #ff6528;
+  }
+  .content .btm-cont .left-list dl dd.act {
+    color: #ff6528;
+  }
+  .content .btm-cont .right-img {
+    width: 312px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+}

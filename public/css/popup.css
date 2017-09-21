@@ -1,0 +1,716 @@
+.shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.login {
+  width: 570px;
+  height: 560px;
+  position: fixed;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -305px;
+  display: none;
+  background: #fefefe;
+}
+.login .top {
+  width: 100%;
+  height: 35px;
+  background: #3cafeb;
+}
+.login .top span {
+  color: white;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.login .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.login .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.login .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.login .log ul {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.login .log ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.login .log ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.login .log ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.login .log ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.login .log ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+}
+.login .log .thr {
+  width: 450px;
+  height: 1px;
+  background: #dbdbdb;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+.login .log .thr span {
+  display: block;
+  margin: 0 auto;
+  width: 147px;
+  height: 28px;
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+  background: #fefefe ;
+  text-align: center;
+}
+.login .log dl {
+  text-align: center;
+  margin-top: 30px;
+}
+.login .log dl dd {
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px 20px 0 20px;
+}
+.login .log dl dd img {
+  display: block;
+}
+.login .log dl dd span {
+  display: block;
+  text-align: center;
+}
+.login .enr {
+  display: none;
+}
+.login .enr ul {
+  margin-top: 12px;
+  overflow: hidden;
+}
+.login .enr ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.login .enr ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.login .enr ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.login .enr ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.login .enr ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 28px;
+  color: white;
+  font-size: 16px;
+}
+.login .enr ul li.code {
+  border: none;
+}
+.login .enr ul li.code input {
+  border: 1px solid #dbdbdb;
+  width: 270px;
+  border-radius: 32px;
+  text-align: center;
+  padding-left: 0;
+}
+.login .enr ul li.code .num {
+  width: 130px;
+  height: 45px;
+  background: #3cafeb;
+  text-align: center;
+  line-height: 45px;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .login {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    display: none;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .login .top {
+    width: 100%;
+    height: 35px;
+    background: #3cafeb;
+  }
+  .login .top span {
+    color: white;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .login .top .btn {
+    width: 120px;
+    float: right;
+    height: 35px;
+  }
+  .login .top .btn button {
+    width: 60px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .login .log ul {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .login .log ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .login .log ul li span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 72px;
+    vertical-align: middle;
+  }
+  .login .log ul li input {
+    width: 60%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .login .log ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .login .log ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .log .thr {
+    width: 90%;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .login .log .thr span {
+    display: block;
+    margin: 0 auto;
+    width: 107px;
+    height: 28px;
+    font-size: 16px;
+    position: relative;
+    top: -13px;
+    background: #fefefe ;
+    text-align: center;
+  }
+  .login .log dl {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .login .log dl dd {
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+  }
+  .login .log dl dd img {
+    display: block;
+  }
+  .login .log dl dd span {
+    display: block;
+    text-align: center;
+  }
+  .login .enr {
+    display: none;
+  }
+  .login .enr ul {
+    margin-top: 12px;
+    overflow: hidden;
+  }
+  .login .enr ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .login .enr ul li span {
+    display: block;
+    width: 64px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 78px;
+    vertical-align: middle;
+  }
+  .login .enr ul li input {
+    width: 60%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .login .enr ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .login .enr ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 28px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .enr ul li.code {
+    border: none;
+  }
+  .login .enr ul li.code input {
+    border: 1px solid #dbdbdb;
+    width: 50%;
+    border-radius: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .login .enr ul li.code .num {
+    width: 110px;
+    height: 45px;
+    background: #3cafeb;
+    text-align: center;
+    line-height: 45px;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+  }
+}
+.nickname {
+  width: 570px;
+  height: 270px;
+  position: fixed;
+  display: none;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -135px;
+  background: #fefefe;
+}
+.nickname .top {
+  width: 100%;
+  height: 35px;
+  background: #3cafeb;
+}
+.nickname .top span {
+  color: white;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.nickname .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.nickname .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.nickname .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.nickname ul {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.nickname ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.nickname ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.nickname ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.nickname ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.nickname ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+.nickname ul li .select {
+  width: 62px;
+  height: 58px;
+  float: right;
+  border-left: 1px solid #dbdbdb;
+  margin-top: 3px;
+}
+.nickname ul li .select select {
+  width: 62px;
+  height: 58px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .nickname {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    display: none;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .nickname .top {
+    width: 100%;
+    height: 35px;
+    background: #3cafeb;
+  }
+  .nickname .top span {
+    color: white;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .nickname .top .btn {
+    width: 222px;
+    float: right;
+    height: 35px;
+  }
+  .nickname .top .btn button {
+    width: 111px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .nickname .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .nickname ul {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .nickname ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .nickname ul li span {
+    display: block;
+    width: 42px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 78px;
+    vertical-align: middle;
+  }
+  .nickname ul li input {
+    width: 50%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .nickname ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .nickname ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+  }
+  .nickname ul li .select {
+    width: 62px;
+    height: 58px;
+    float: right;
+    border-left: 1px solid #dbdbdb;
+    margin-top: 3px;
+  }
+  .nickname ul li .select select {
+    width: 62px;
+    height: 58px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+}
+.tips {
+  width: 570px;
+  height: 270px;
+  position: fixed;
+  display: none;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -135px;
+  background: #fefefe;
+}
+.tips .top {
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+  height: 35px;
+}
+.tips .top span {
+  color: #707070;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.tips .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.tips .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.tips .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.tips p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 50px;
+}
+.tips button {
+  width: 325px;
+  height: 45px;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  color: #707070;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+}
+@media (max-width: 1200px) {
+  .tips {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    display: none;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .tips .top {
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    height: 35px;
+  }
+  .tips .top span {
+    color: #707070;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .tips .top .btn {
+    width: 222px;
+    float: right;
+    height: 35px;
+  }
+  .tips .top .btn button {
+    width: 111px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .tips .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .tips p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .tips button {
+    width: 80%;
+    height: 45px;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 15px;
+    color: #707070;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+  }
+}

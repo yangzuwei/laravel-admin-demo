@@ -1,0 +1,227 @@
+html,
+body {
+  background: #f2f2f2;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 180px;
+  padding-bottom: 30px;
+}
+.content .class {
+  width: 100%;
+  height: 45px;
+}
+.content .class ul {
+  overflow: hidden;
+  background: white;
+}
+.content .class ul li {
+  width: 124px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  float: left;
+  cursor: pointer;
+}
+.content .class ul li.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .list {
+  width: 100%;
+  background: white;
+  margin-top: 12px;
+}
+.content .list ul li {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 30px;
+}
+.content .list ul li:hover span {
+  color: #3cafeb;
+}
+.content .list ul li .video-cont {
+  width: 243px;
+  height: 155px;
+  background-size: cover !important;
+}
+.content .list ul li .video-cont img {
+  width: 243px;
+  height: 155px;
+}
+.content .list ul li span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.content .page {
+  padding-top: 50px;
+  background: white;
+  padding-bottom: 20px;
+}
+.content .page ul {
+  text-align: center;
+}
+.content .page ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.content .page ul li button {
+  width: 70px;
+  height: 38px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background: white;
+  margin-left: 10px;
+}
+.content .page ul li dl {
+  margin-top: 5px;
+}
+.content .page ul li dl span {
+  color: #b9b9b9;
+}
+.content .page ul li dl dd {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #dbdbdb;
+  line-height: 29px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.content .page ul li dl dd:hover {
+  background: #3cafeb;
+  color: white;
+}
+.content .page ul li dl dd.act {
+  background: #3cafeb;
+  color: white;
+}
+.content .page ul li b {
+  font-weight: 500;
+}
+.content .page ul li input {
+  width: 47px;
+  height: 38px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .content .class {
+    width: 100%;
+    height: 45px;
+  }
+  .content .class ul {
+    overflow: hidden;
+    background: white;
+    width: 100%;
+  }
+  .content .class ul li {
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+    cursor: pointer;
+  }
+  .content .class ul li.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .list {
+    width: 100%;
+    background: white;
+    margin-top: 12px;
+    padding-bottom: 20px;
+  }
+  .content .list ul {
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .content .list ul li {
+    width: 48%;
+    cursor: pointer;
+    float: left;
+    margin: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+  }
+  .content .list ul li:hover span {
+    color: #3cafeb;
+  }
+  .content .list ul li .video-cont {
+    width: 100%;
+  }
+  .content .list ul li span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  .content .page {
+    padding-top: 50px;
+    background: white;
+    display: none;
+  }
+  .content .page ul {
+    text-align: center;
+  }
+  .content .page ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .content .page ul li button {
+    width: 70px;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: white;
+    margin-left: 10px;
+  }
+  .content .page ul li dl {
+    margin-top: 5px;
+  }
+  .content .page ul li dl span {
+    color: #b9b9b9;
+  }
+  .content .page ul li dl dd {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background: #dbdbdb;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .content .page ul li dl dd:hover {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .page ul li dl dd.act {
+    background: #3cafeb;
+    color: white;
+  }
+  .content .page ul li b {
+    font-weight: 500;
+  }
+  .content .page ul li input {
+    width: 47px;
+    height: 38px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+  }
+}

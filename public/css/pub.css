@@ -1,0 +1,1303 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #707070;
+  font-family: "微软雅黑";
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+.header {
+  width: 100%;
+  height: 132px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #dbdbdb;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+  transition: all .6s ease;
+}
+@media (min-width: 1200px) {
+  .header.act {
+    height: 90px;
+  }
+  .header.act h1 {
+    margin-top: -35px;
+  }
+  .header.act .nav {
+    height: 41px;
+  }
+  .header.act .nav ul li {
+    margin-top: 6px;
+  }
+}
+.header .top {
+  width: 100%;
+  height: 50px;
+  background: #2d2d2d;
+}
+.header .top .top-center {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+.header .top .top-center h1 {
+  float: left;
+  transition: all .6s ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  box-shadow: 0px 0px 8px #3cafeb;
+  cursor: pointer;
+}
+.header .top .top-center h1 img {
+  display: block;
+}
+.header .top .top-center .search {
+  width: 390px;
+  height: 50px;
+  float: right;
+}
+.header .top .top-center .search .sea-cont {
+  margin-top: 13px;
+  width: 205px;
+  height: 23px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  float: left;
+}
+.header .top .top-center .search .sea-cont input {
+  margin-left: 8px;
+  outline: none;
+  border: none;
+  height: 23px;
+  float: left;
+}
+.header .top .top-center .search .sea-cont input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+.header .top .top-center .search .sea-cont button {
+  width: 35px;
+  background: white;
+  height: 20px;
+  float: left;
+  border-left: 1px solid #d9d9d9;
+  margin-top: 2px;
+  box-shadow: -1px 0px 1px #dcdcdc;
+}
+.header .top .top-center .search ul li {
+  float: left;
+  margin-left: 38px;
+  line-height: 50px;
+}
+.header .top .top-center .search ul li a {
+  color: white;
+  font-size: 16px;
+}
+.header .top .top-center .search ul li span {
+  color: white;
+}
+.header .nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 82px;
+}
+.header .nav .phone-menu {
+  display: none;
+}
+.header .nav ul {
+  text-align: right;
+}
+.header .nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 48px;
+  position: relative;
+  transition: all .6s ease;
+}
+.header .nav ul li:hover i {
+  width: 100%;
+}
+.header .nav ul li:last-child {
+  margin-right: 0;
+}
+.header .nav ul li.act i {
+  width: 100%;
+}
+.header .nav ul li a {
+  font-size: 16px;
+  display: block;
+  height: 32px;
+  box-sizing: border-box;
+}
+.header .nav ul li i {
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #3cafeb;
+  margin: 0 auto;
+  transition: all .2s ease;
+}
+.header .nav ul li .hdxl {
+  width: 113px;
+  height: auto;
+  background: white;
+  position: absolute;
+  left: -20px;
+  display: none;
+  z-index: 9;
+}
+.header .nav ul li .hdxl a {
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+}
+.header .nav ul li .hdxl a:hover {
+  color: #3cafeb;
+}
+.header .nav ul li .appxl {
+  width: 348px;
+  height: 190px;
+  background: white;
+  position: absolute;
+  z-index: 9;
+  left: -120px;
+  display: none;
+}
+.header .nav ul li .appxl dl {
+  overflow: hidden;
+}
+.header .nav ul li .appxl dl dd {
+  width: 50%;
+  height: 190px;
+  float: left;
+  text-align: center;
+}
+.header .nav ul li .appxl dl dd img {
+  margin-top: 18px;
+}
+.header .nav ul li .appxl dl dd span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+@media (max-width: 1200px) {
+  .header {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: white;
+  }
+  .header .top {
+    background: white;
+  }
+  .header .top .top-center {
+    width: 100%;
+    height: 65px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .header .top .top-center h1 {
+    height: 100%;
+    margin-left: 3%;
+  }
+  .header .top .top-center h1 img {
+    height: 117%;
+    margin-top: -15%;
+  }
+  .header .top .top-center .search {
+    margin-right: 15%;
+    width: auto !important;
+  }
+  .header .top .top-center .sea-cont {
+    display: none;
+  }
+  .header .top .top-center ul {
+    overflow: hidden;
+  }
+  .header .top .top-center ul li {
+    margin-left: 15px !important;
+  }
+  .header .top .top-center ul li a {
+    line-height: 60px;
+    color: #707070 !important;
+    font-size: 14px  !important;
+  }
+  .header .top .top-center ul li span {
+    line-height: 60px;
+    color: #707070 !important;
+    font-size: 14px !important;
+  }
+  .header .nav {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    position: relative;
+  }
+  .header .nav .phone-menu {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: -44px;
+  }
+  .header .nav .phone-menu img {
+    width: 20px;
+  }
+  .header .nav ul {
+    display: none;
+  }
+  .header .nav ul li {
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .header .nav ul li i {
+    height: 2px;
+  }
+  .header .nav ul li a {
+    line-height: 35px;
+    font-size: 13px;
+  }
+  .header .nav ul li .xl {
+    height: auto;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -57px;
+    box-shadow: 0px 0px 5px #c4c4c4;
+  }
+  .header .nav ul li .xl.appxl {
+    height: 0;
+  }
+}
+.banner {
+  width: 100%;
+  height: auto;
+  margin-top: 132px;
+}
+.banner .flex-direction-nav {
+  width: 100%;
+  position: absolute;
+  bottom: 50%;
+}
+.banner .flex-control-nav {
+  bottom: 5%;
+}
+.banner .flex-control-nav a {
+  width: 15px;
+  border-radius: 50%;
+  height: 15px;
+  box-sizing: border-box;
+}
+.banner .flex-next {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  text-align: center;
+  background: url("../img/banner-page.png") no-repeat 18px center;
+  background-size: 12px 26px;
+  transform: rotate(180deg);
+}
+.banner .flex-next:hover {
+  background: rgba(0, 0, 0, 0.4) url("../img/banner-page.png") no-repeat 18px center;
+  background-size: 12px 26px;
+}
+.banner .flex-next:before {
+  display: none;
+}
+.banner .flex-prev {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  text-align: center;
+  background: url("../img/banner-page.png") no-repeat 18px center;
+  background-size: 12px 26px;
+}
+.banner .flex-prev:before {
+  display: none;
+}
+.banner .flex-prev:hover {
+  background: rgba(0, 0, 0, 0.4) url("../img/banner-page.png") no-repeat 18px center;
+  background-size: 12px 26px;
+}
+@media (max-width: 1200px) {
+  .banner {
+    margin-top: 65px;
+  }
+  .banner .flex-control-nav a {
+    width: 10px;
+    height: 10px;
+  }
+}
+.footer {
+  display: block;
+  width: 100%;
+  background: #2d2d2d;
+  margin-top: 64px;
+}
+.footer .foot-center {
+  width: 1200px;
+  height: 252px;
+  margin: 0 auto;
+}
+.footer .foot-center .left-link {
+  width: 780px;
+  height: 250px;
+  float: left;
+  overflow: hidden;
+}
+.footer .foot-center .left-link ul {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.footer .foot-center .left-link ul li {
+  float: left;
+  margin-right: 28px;
+}
+.footer .foot-center .left-link ul li a {
+  color: white;
+  font-size: 16px;
+}
+.footer .foot-center .left-link dl {
+  overflow: hidden;
+  margin-top: 22px;
+}
+.footer .foot-center .left-link dl dt {
+  float: left;
+  margin-right: 12px;
+}
+.footer .foot-center .left-link dl dt a {
+  color: white;
+  font-size: 16px;
+}
+.footer .foot-center .left-link dl dd {
+  margin-right: 12px;
+  float: left;
+}
+.footer .foot-center .left-link dl dd a {
+  font-size: 16px;
+  color: white;
+}
+.footer .foot-center .left-link p {
+  font-size: 16px;
+  margin-top: 48px;
+}
+.footer .foot-center .left-link span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.footer .foot-center .code {
+  width: 420px;
+  height: 250px;
+  float: right;
+}
+.footer .foot-center .code ul {
+  text-align: center;
+}
+.footer .foot-center .code ul li {
+  display: inline-block;
+  margin: 0 15px;
+  margin-top: 35px;
+}
+.footer .foot-center .code ul li span {
+  display: block;
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center;
+}
+.footer .foot-center .code ul li b {
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: 500;
+}
+.footer .foot-center .foot-search {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .footer {
+    margin-top: 35px;
+    padding-bottom: 15px;
+  }
+  .footer .foot-search {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    background: #2d2d2d;
+    z-index: 111;
+  }
+  .footer .foot-center {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .footer .foot-center .left-link {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .footer .foot-center .left-link ul {
+    overflow: hidden;
+    display: none;
+    margin-top: 30px;
+  }
+  .footer .foot-center .left-link ul li {
+    float: left;
+    margin-right: 28px;
+  }
+  .footer .foot-center .left-link ul li a {
+    color: white;
+    font-size: 16px;
+  }
+  .footer .foot-center .left-link dl {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+  .footer .foot-center .left-link dl dt {
+    float: left;
+    margin-right: 12px;
+  }
+  .footer .foot-center .left-link dl dt a {
+    color: white;
+    font-size: 14px;
+  }
+  .footer .foot-center .left-link dl dd {
+    margin-right: 10px;
+    float: left;
+  }
+  .footer .foot-center .left-link dl dd a {
+    font-size: 14px;
+    color: white;
+  }
+  .footer .foot-center .left-link p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .footer .foot-center .left-link span {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .footer .foot-center .code {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+  .footer .foot-center .code ul {
+    text-align: center;
+  }
+  .footer .foot-center .code ul li {
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: 15px;
+  }
+  .footer .foot-center .code ul li img {
+    width: 100px;
+  }
+  .footer .foot-center .code ul li span {
+    display: block;
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .footer .foot-center .code ul li b {
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: 500;
+  }
+  .footer .foot-center .foot-search {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .footer .foot-center .foot-search .sea-cont {
+    overflow: hidden;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 30px;
+    background: white;
+    border-radius: 12px;
+  }
+  .footer .foot-center .foot-search .sea-cont input {
+    margin-left: 8px;
+    outline: none;
+    border: none;
+    height: 30px;
+    float: left;
+    width: 85%;
+  }
+  .footer .foot-center .foot-search .sea-cont input::-webkit-input-placeholder {
+    color: #cacaca;
+  }
+  .footer .foot-center .foot-search .sea-cont button {
+    width: 35px;
+    background: white;
+    height: 26px;
+    float: right;
+    border-left: 1px solid #d9d9d9;
+    margin-top: 2px;
+    box-shadow: -1px 0px 1px #dcdcdc;
+  }
+  .footer .foot-center .foot-search .sea-cont button img {
+    margin-top: 4px;
+  }
+}
+.shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 9999;
+}
+.login {
+  width: 570px;
+  height: 560px;
+  position: fixed;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -305px;
+  display: none;
+  z-index: 9999;
+  background: #fefefe;
+}
+.login .top {
+  width: 100%;
+  height: 35px;
+  background: #3cafeb;
+}
+.login .top span {
+  color: white;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.login .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.login .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.login .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.login .log ul {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.login .log ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.login .log ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.login .log ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.login .log ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.login .log ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+}
+.login .log .thr {
+  width: 450px;
+  height: 1px;
+  background: #dbdbdb;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+.login .log .thr span {
+  display: block;
+  margin: 0 auto;
+  width: 147px;
+  height: 28px;
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+  background: #fefefe ;
+  text-align: center;
+}
+.login .log dl {
+  text-align: center;
+  margin-top: 30px;
+}
+.login .log dl dd {
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px 20px 0 20px;
+}
+.login .log dl dd img {
+  display: block;
+}
+.login .log dl dd span {
+  display: block;
+  text-align: center;
+}
+.login .enr {
+  display: none;
+}
+.login .enr ul {
+  margin-top: 12px;
+  overflow: hidden;
+}
+.login .enr ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.login .enr ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.login .enr ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.login .enr ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.login .enr ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 28px;
+  color: white;
+  font-size: 16px;
+}
+.login .enr ul li.code {
+  border: none;
+}
+.login .enr ul li.code input {
+  border: 1px solid #dbdbdb;
+  width: 270px;
+  border-radius: 32px;
+  text-align: center;
+  padding-left: 0;
+}
+.login .enr ul li.code .num {
+  width: 130px;
+  height: 45px;
+  background: #3cafeb;
+  text-align: center;
+  line-height: 45px;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .login {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    display: none;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .login .top {
+    width: 100%;
+    height: 35px;
+    background: #3cafeb;
+  }
+  .login .top span {
+    color: white;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .login .top .btn {
+    width: 120px;
+    float: right;
+    height: 35px;
+  }
+  .login .top .btn button {
+    width: 60px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .login .log ul {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .login .log ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .login .log ul li span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 72px;
+    vertical-align: middle;
+  }
+  .login .log ul li input {
+    width: 60%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .login .log ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .login .log ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .log .thr {
+    width: 90%;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .login .log .thr span {
+    display: block;
+    margin: 0 auto;
+    width: 107px;
+    height: 28px;
+    font-size: 16px;
+    position: relative;
+    top: -13px;
+    background: #fefefe ;
+    text-align: center;
+  }
+  .login .log dl {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .login .log dl dd {
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+  }
+  .login .log dl dd img {
+    display: block;
+  }
+  .login .log dl dd span {
+    display: block;
+    text-align: center;
+  }
+  .login .enr {
+    display: none;
+  }
+  .login .enr ul {
+    margin-top: 12px;
+    overflow: hidden;
+  }
+  .login .enr ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .login .enr ul li span {
+    display: block;
+    width: 64px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 78px;
+    vertical-align: middle;
+  }
+  .login .enr ul li input {
+    width: 60%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .login .enr ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .login .enr ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 28px;
+    color: white;
+    font-size: 16px;
+  }
+  .login .enr ul li.code {
+    border: none;
+  }
+  .login .enr ul li.code input {
+    border: 1px solid #dbdbdb;
+    width: 50%;
+    border-radius: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .login .enr ul li.code .num {
+    width: 110px;
+    height: 45px;
+    background: #3cafeb;
+    text-align: center;
+    line-height: 45px;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+  }
+}
+.nickname {
+  width: 570px;
+  height: 270px;
+  position: fixed;
+  display: none;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -135px;
+  background: #fefefe;
+}
+.nickname .top {
+  width: 100%;
+  height: 35px;
+  background: #3cafeb;
+}
+.nickname .top span {
+  color: white;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.nickname .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.nickname .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.nickname .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.nickname ul {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.nickname ul li {
+  width: 440px;
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.nickname ul li span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  text-align: right;
+  float: left;
+  line-height: 78px;
+  vertical-align: middle;
+}
+.nickname ul li input {
+  width: 60%;
+  height: 64px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.nickname ul li input::-webkit-input-placeholder {
+  color: #dbdbdb;
+}
+.nickname ul li button {
+  width: 325px;
+  height: 45px;
+  background: #3cafeb;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+.nickname ul li .select {
+  width: 62px;
+  height: 58px;
+  float: right;
+  border-left: 1px solid #dbdbdb;
+  margin-top: 3px;
+}
+.nickname ul li .select select {
+  width: 62px;
+  height: 58px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .nickname {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    display: none;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .nickname .top {
+    width: 100%;
+    height: 35px;
+    background: #3cafeb;
+  }
+  .nickname .top span {
+    color: white;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .nickname .top .btn {
+    width: 222px;
+    float: right;
+    height: 35px;
+  }
+  .nickname .top .btn button {
+    width: 111px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .nickname .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .nickname ul {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .nickname ul li {
+    width: 90%;
+    height: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .nickname ul li span {
+    display: block;
+    width: 42px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    line-height: 78px;
+    vertical-align: middle;
+  }
+  .nickname ul li input {
+    width: 50%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .nickname ul li input::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+  .nickname ul li button {
+    width: 100%;
+    height: 45px;
+    background: #3cafeb;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+  }
+  .nickname ul li .select {
+    width: 62px;
+    height: 58px;
+    float: right;
+    border-left: 1px solid #dbdbdb;
+    margin-top: 3px;
+  }
+  .nickname ul li .select select {
+    width: 62px;
+    height: 58px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+}
+.tips {
+  width: 570px;
+  height: 270px;
+  position: fixed;
+  display: none;
+  left: 50%;
+  margin-left: -275px;
+  top: 50%;
+  margin-top: -135px;
+  background: #fefefe;
+}
+.tips .top {
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+  height: 35px;
+}
+.tips .top span {
+  color: #707070;
+  line-height: 35px;
+  margin-left: 18px;
+}
+.tips .top .btn {
+  width: 222px;
+  float: right;
+  height: 35px;
+}
+.tips .top .btn button {
+  width: 111px;
+  height: 35px;
+  background: #3cafeb;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+}
+.tips .top .btn button.act {
+  background: #ffffff;
+  color: #3cafeb;
+}
+.tips p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 50px;
+}
+.tips button {
+  width: 325px;
+  height: 45px;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  color: #707070;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+}
+@media (max-width: 1200px) {
+  .tips {
+    width: 90%;
+    height: auto;
+    position: fixed;
+    display: none;
+    left: 5%;
+    margin-left: 0;
+    top: 5%;
+    margin-top: 0;
+    background: #fefefe;
+    padding-bottom: 15px;
+  }
+  .tips .top {
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    height: 35px;
+  }
+  .tips .top span {
+    color: #707070;
+    line-height: 35px;
+    margin-left: 18px;
+  }
+  .tips .top .btn {
+    width: 222px;
+    float: right;
+    height: 35px;
+  }
+  .tips .top .btn button {
+    width: 111px;
+    height: 35px;
+    background: #3cafeb;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+  }
+  .tips .top .btn button.act {
+    background: #ffffff;
+    color: #3cafeb;
+  }
+  .tips p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .tips button {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    margin-top: 15px;
+    color: #707070;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+  }
+}
